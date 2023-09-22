@@ -45,6 +45,19 @@
     font-size: 24px;
   }
 
+  .copy-div {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #A4FFAF;
+    font-size: 18px;
+  }
+
+  .copy-div p {
+    margin-right: 16px;
+  }
+
   .copy {
     fill: #A4FFAF;
   }
@@ -239,6 +252,19 @@
   .generated-password {
     color:  #E6E5EA;
     font-size: 32px;
+  }
+
+  .copy-div {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #A4FFAF;
+    font-size: 18px;
+  }
+
+  .copy-div p {
+    margin-right: 16px;
   }
 
   .copy {
@@ -446,6 +472,19 @@
     font-size: 32px;
   }
 
+  .copy-div {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #A4FFAF;
+    font-size: 18px;
+  }
+
+  .copy-div p {
+    margin-right: 16px;
+  }
+
   .copy {
     fill: #A4FFAF;
   }
@@ -592,6 +631,7 @@
     width: 100%;
     height: 50%;
     color: #24232C;
+    border: 2px solid #A4FFAF;
     font-weight: 700;
     background-color: #A4FFAF;
     padding: 22px 0;
