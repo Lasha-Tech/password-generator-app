@@ -46,7 +46,7 @@
   }
 
   .copy-div {
-    width: 40%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -212,8 +212,6 @@
   }
 }
 
-
-
 @media (min-width: 768px) {
   .App {
   height: 100vh;
@@ -232,6 +230,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+
   }
 
   .project-title {
@@ -255,7 +254,7 @@
   }
 
   .copy-div {
-    width: 40%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -473,7 +472,7 @@
   }
 
   .copy-div {
-    width: 40%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
