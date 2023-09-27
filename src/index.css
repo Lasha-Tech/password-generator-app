@@ -15,6 +15,7 @@
   align-items: center;
   font-family: 'JetBrains Mono';
   font-weight: 700;
+  overflow-y: scroll;
 }
 
   .wrapper {
@@ -33,11 +34,11 @@
   .password-generator {
     background: var(--Dark-Grey, #24232C);
     width: 100%;
-    height: 13%;
+    height: max-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
+    padding: 16px;
   }
 
   .generated-password {
@@ -65,7 +66,8 @@
   .main {
     background: var(--Dark-Grey, #24232C);
     width: 100%;
-    height: 100%;
+    /* min-height: 87%; */
+    min-height: max-content;
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -159,7 +161,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px 16px;
+    padding: 18px;
   }
 
   .password-strength-div p {
@@ -203,6 +205,7 @@
     color: #24232C;
     font-weight: 700;
     background-color: #A4FFAF;
+    padding: 18px;
   }
 
   .arrow {
@@ -214,18 +217,19 @@
 
 @media (min-width: 768px) {
   .App {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(180deg, #14131B 0%, #08070B 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'JetBrains Mono';
   font-weight: 700;
+  overflow-y: scroll;
 }
 
   .wrapper {
     width: 70%;
-    height: 69%;
+    min-height: 69%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,7 +245,7 @@
   .password-generator {
     background: #24232C;
     width: 100%;
-    height: 16%;
+    height: max-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -273,7 +277,7 @@
   .main {
     background: #24232C;
     width: 100%;
-    height: 87%;
+    height: max-content;
     display: flex;
     flex-direction: column;
     padding: 32px 34px;
@@ -432,13 +436,15 @@
 
 @media (min-width: 1440px) {
   .App {
-  height: 100vh;
+  min-height: 100vh;
+  max-height: max-content;
   background: linear-gradient(180deg, #14131B 0%, #08070B 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'JetBrains Mono';
   font-weight: 700;
+  overflow-y: scroll;
 }
 
   .wrapper {
